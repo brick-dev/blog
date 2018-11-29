@@ -46,27 +46,8 @@ These are gallery tests for image wrapped in `<figure>` elements.
 
 To place a gallery add the necessary YAML Front Matter:
 
-```yaml
-gallery:
-  - url: unsplash-gallery-image-1.jpg
-    image_path: unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: unsplash-gallery-image-2.jpg
-    image_path: unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: unsplash-gallery-image-3.jpg
-    image_path: unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
-  - url: unsplash-gallery-image-4.jpg
-    image_path: unsplash-gallery-image-4-th.jpg
-    alt: "placeholder image 4"
-```
-
 And then drop-in the gallery include --- gallery `caption` is optional.
 
-```liquid
-{% raw %}{% include gallery caption="This is a sample gallery with **Markdown support**." %}{% endraw %}
-```
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
