@@ -5,9 +5,5 @@
 @charset "utf-8";
 
 
-# overrides theme defaults, must come before @import
-$link-color: red;
-
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
