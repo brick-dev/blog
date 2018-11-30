@@ -213,7 +213,7 @@ figure {
   -webkit-box-align: start;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin: 1em auto 2em;
+  margin: 2em 0;
 
   img,
   iframe,
@@ -223,6 +223,7 @@ figure {
 
   img {
     width: 90%;
+    margin: 0 auto;
   }
 
   > a {
@@ -259,7 +260,7 @@ figure {
 /* Figure captions */
 
 figcaption {
-  margin-bottom: 0.5em;
+  margin-bottom: 0 auto 0.5em;
   color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-6;
