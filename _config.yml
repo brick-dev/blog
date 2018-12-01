@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "brick_dev"
 description              : "Building with bricks."
 url                      : "https://brick-dev.github.io/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/img/500x300.png"
 # breadcrumbs            : false # true, false (default)
